@@ -39,7 +39,7 @@ public class Race {
      *
      * @return 레이스에서 우승한 차 목록
      */
-    public ArrayList<Car> findWinners() {
+    public List<Car> findWinners() {
         // 결괏값
         ArrayList<Car> result = new ArrayList<>();
         // 최대 위치값
